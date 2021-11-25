@@ -3,4 +3,12 @@ body {
 }
 header{
     background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+}
+.perfil{
+    background-image: url(../assets/Foto.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+
 }

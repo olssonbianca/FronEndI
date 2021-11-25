@@ -8,53 +8,68 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <tittle>
-            Petshop
-        </tittle>
+        <title>Petshop</title>
     </head>
     <body>
         <header>
+
+        <!-- Primer sección del header-->
             <ul>
-                <li>
-                    Grandes ofertas en comederos
-                </li>
-                <li>
-                    Menu regional
-                </li>
-                <li>
-                    Español
-                </li>
-                <li>
-                    $ARG
-                </li>
+                <li  type='none'>Grandes ofertas en comederos</li>
+                <ul>
+                    <li>
+                        <form >
+                            <label for="idioma"></label>
+                            <select name="idioma" id="idioma">
+                                <option value="espanol">Español</option>
+                                <option value="ingles">Inglés</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="peso"></label>
+                            <select name="peso" id="peso">
+                                <option value="arg">ARG$</option>
+                                <option value="dolar">USD$</option>
+                            </select>
+                        </form>
+                    </li>
+                </ul>
             </ul>
-            <ul>
-                <li>
-                    <img src= 'assets/Logo (1).png'>
-                </li>
-                <li>
-                    Menú principal
-                </li>
-                <li>
-                    Categorías
-                </li>
-                <li>
-                    Pets
-                </li>
-                <li>
-                    Nosotras
-                </li>
-                <li>
-                    Contactanos
-                </li>
-            </ul>
+
+            <!-- Barra de navegación -->
+            <nav>
+                <div><img src= 'assets/Logo (1).png'></div>
+                <ul>
+                    <li type='none'>
+                        Menú principal
+                    </li>
+                    <li  type='none'>
+                        Categorías
+                    </li>
+                    <li  type='none'>
+                        Pets
+                    </li>
+                    <li  type='none'>
+                        Nosotras
+                    </li>
+                    <li  type='none'>
+                        Contactanos
+                    </li>
+                </ul>
+            </nav>
         </header>
+
+        <!-- Cabecera principal-->
         <main>
             <img src= 'assets/principal.png'>
             <h1>¡Es un placer tenerte aquí!</h1>
             <h3>¡Comederos en descuento!</h3>
             <button>COMEDEROS</button>
         </main>
+
+        <!--Productos destacados-->
         <section>
             <img src= 'assets/pawprint 1.png'>
             <h2>Productos Destacados</h2>
@@ -64,6 +79,8 @@
             <span>-</span>
             <span>Comida</span>
         </section>
+
+        <!-- Producto -->
         <section>
             <div>
                 <img src="assets/churrasquito.png">
@@ -81,6 +98,8 @@
                 <h6>$650</h6>
             </div>
         </section>
+
+        <!-- Contacto -->
         <section>
             <h3>
                 Contáctanos
@@ -95,6 +114,8 @@
                 Aceptar
             </button>
         </section>
+
+        <!-- Pie de pagina -->
         <footer>
             <div>
                 <img src="assets/enviar-correo 1.png">
