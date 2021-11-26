@@ -14,14 +14,14 @@
     <body>
         <header>
         <!-- Primer sección del header-->
-            <article>
-                <ul>
-                    <li  type='none'>Grandes ofertas en comederos</li>
-                    <ul>
+            <article class='config'>
+                <ul class='configlist' >
+                    <li  >Grandes ofertas en comederos</li>
+                    <ul class='configlist'>
                         <li>
-                            <form >
+                            <form>
                                 <label for="idioma"></label>
-                                <select name="idioma" id="idioma">
+                                <select  class='configestilo' name="idioma" id="idioma">
                                     <option value="espanol">Español</option>
                                     <option value="ingles">Inglés</option>
                                 </select>
@@ -30,7 +30,7 @@
                         <li>
                             <form>
                                 <label for="peso"></label>
-                                <select name="peso" id="peso">
+                                <select class='configestilo' name="peso" id="peso">
                                     <option value="arg">ARG$</option>
                                     <option value="dolar">USD$</option>
                                 </select>
@@ -39,23 +39,24 @@
                     </ul>
                 </ul>
             </article>
+
             <!-- Barra de navegación -->
             <nav>
-                <div><img src= 'assets/Logo (1).png'></div>
-                <ul>
-                    <li type='none'><i class="fas fa-paw"></i>
+                <div class='logo'><img src= 'assets/Logo (1).png'></div>
+                <ul class='navbar'>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
                         Menú principal
                     </li>
-                    <li  type='none'><i class="fas fa-paw"></i>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
                         Categorías
                     </li>
-                    <li  type='none'><i class="fas fa-paw"></i>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
                         Pets
                     </li>
-                    <li  type='none'><i class="fas fa-paw"></i>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
                         Nosotras
                     </li>
-                    <li  type='none'><i class="fas fa-paw"></i>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
                         Contactanos
                     </li>
                 </ul>
@@ -64,35 +65,39 @@
 
         <!-- Cabecera-->
         <main>
-            <h1>¡Es un placer tenerte aquí!</h1>
-            <h3>¡Comederos en descuento!</h3>
-            <button>COMEDEROS</button>
+            <article class='main-content'>
+                <h1>¡Es un placer tenerte aquí!</h1>
+                <h3 class='align'>¡Comederos en descuento!</h3>
+                <button class='mainbutton align'>COMEDEROS</button>
+            </article>
         </main>
 
         <!--Productos destacados-->
-        <section>
-            <i class="fas fa-paw"></i>
+        <section class='destacados'>
+            <i class="fas fa-paw pawprint"></i>
             <h2>Productos Destacados</h2>
-            <span>Comederos</span>
-            <span>-</span>
-            <span>Accesorios</span>
-            <span>-</span>
-            <span>Comida</span>
+            <article class='categorias'>
+                <span>Comederos</span>
+                <span>-</span>
+                <span>Accesorios</span>
+                <span>-</span>
+                <span>Comida</span>
+            </article>
         </section>
 
         <!-- Producto -->
-        <section>
-            <div>
+        <section class='cards'>
+            <div class="card">
                 <img src="assets/churrasquito.png">
                 <h5>Juguete Churrasquito</h5>
                 <h6>$150</h6>
             </div>
-            <div>
+            <div class="card">
                 <img src="assets/comedero.png">
                 <h5>Comedero para perro</h5>
                 <h6>$250</h6>
             </div>
-            <div>
+            <div class="card">
                 <img src="assets/Huesito.png">
                 <h5>Juguete huesito</h5>
                 <h6>$650</h6>
@@ -100,23 +105,21 @@
         </section>
 
         <!-- Contacto -->
-        <section>
-            <h3>
-                Contáctanos
-            </h3>
-            <form>
+        <section class='contactanos'>
+            <h4> Contáctanos</h4>
+            <form class='formulario'>
                 <label for='name'>
-                    <input type="text" value="Nombre y apellido">
+                    <input class='inputform' type="text" placeholder="Nombre y apellido">
                 </label>
                 <label for='email'>
-                    <input type="text" value="Ingresa tu correo electrónico">
+                    <input class='inputform' type="text" placeholder="Ingresa tu correo electrónico">
                 </label>
                 <label for='phone'>
-                    <input type="text" value="Teléfono">
+                    <input class='inputform' type="text" placeholder="Teléfono">
                 </label>
                 <div>
-                    <button type='reset'>Resetear</button>
-                    <button type='submit'>Aceptar</button>
+                    <button class='resetbutton' type='reset'>Resetear</button>
+                    <button class='sendbutton' type='submit'>Aceptar</button>
                 </div>
             </form>
         </section>
@@ -128,7 +131,7 @@
                     <img src="assets/enviar-correo.png">
                     <h5>Suscribete para mas novedades</h5>
                 </div>
-                <form class="subs-form">
+                <form >
                     <input type="email" placeholder="Ingresá tu correo electrónico">
                     <button type="submit">Suscribirme</button>
                 </form>

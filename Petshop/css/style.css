@@ -5,3 +5,218 @@
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
+/*Header*/
+
+/*HeaderTop*/
+.config {
+    background-color: #222222;
+    color: #FFFFFF;
+    width: 100%;
+    height:20px;
+    font-size: 10px;
+    font-weight: 400;
+}
+ul.configlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select.configestilo{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #222222;
+    border:none;
+    color:#ffffff;
+}
+
+/*HeaderPrincipal*/ 
+
+nav{
+    background-color:#F0A83E;
+    color:white;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    margin-right: 40px;
+}
+.navbaritems{
+    margin:5px;
+}
+.paw{
+    margin:2px;
+}
+.logo{
+    margin-left: 40px;
+    width: 20%;
+    height: 23px;
+}
+
+/*Cabecera principal*/
+
+main{
+    display:flex;
+    background-image: url("../assets/principal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 409px;
+}
+
+.mainbutton{
+    background-color: #F0A83E;
+    border:18px solid #F0A83E;
+    font-size: 16px;
+    border-radius: 5px;
+    color:#ffffff;
+    margin-right: 110px;
+}
+
+.main-content{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-end;
+    align-self: center;
+    margin: 12px;
+}
+
+h1{
+    font-size: 30px;
+    background-color: white;
+    border: 9px solid white;
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: center;
+}
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px;
+    margin-right: 94px;
+}
+
+/*Productos destacados*/
+
+.destacados{
+    margin: 20px 0px 49px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.pawprint{
+    font-size: 71px;
+    color: #F0A83E;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color:#3C2313;
+    margin: 9px 0px 20px;
+}
+.categorias{
+    display:flex;
+}
+span{ 
+    color:#666666;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 13px;
+}
+
+/*productos*/
+.cards{
+    margin: 0% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    
+}
+
+h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3C2313;
+
+}
+
+h6{
+    font-size: 15px;
+    font-weight: 500;
+    color:#F0A83E;
+    margin-bottom: 8px;
+}
+
+/*Contacto*/
+
+h4{
+    display: flex;
+    justify-content: center;
+    color:#3C2313;
+    font-weight: 700;
+    font-size: 25px;
+    margin:20px
+}
+
+.contactanos{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputform{
+    width: 340px;
+    right: 40px;
+    padding: 15px;
+    color:white;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin: 10px;
+    border:none;
+}
+
+.resetbutton{ 
+    margin: 40px 6px;
+    background-color:#8A8787;
+    padding:8px 22px ;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 15px;
+    border:none;
+    ;
+}
+.sendbutton{    
+    margin: 40px 6px;
+    background-color: #F0A83E;
+    padding:8px 22px ;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 15px;
+    border:none;}
